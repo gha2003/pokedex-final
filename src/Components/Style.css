@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, red , blue);
+}
+.container{
+    width: 95%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+}
+.left-side,.right-side{
+    flex-basis: 50%;
+}
+.left-side{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 3rem;
+    
+}
+.card{
+    width: 300px;
+    background-color: #ffad33;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.right-side{
+    padding-top: 150px;
+    width: 40%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:100px;
+    right: 10px;
+}
+.right-side img{
+    margin: 1.5rem;
+    height: 260px;
+}
+.right-side h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group{
+    background-color: #ffad33;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+
+.weight{
+    margin-top: 2rem;
+}
+
+.buttons{
+    display: flex;
+}
+.buttons button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    border-radius: 18px;
+    align-items: center;
+
+}
+
+h5{
+    font-size: 18px;
+    color: blueviolet;
+    align-items: center;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 18px;
+    color: black;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+a{
+    font-size: 22px;
+    color: white;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
