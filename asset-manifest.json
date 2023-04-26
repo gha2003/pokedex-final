@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pokedef-final/static/css/main.8e188760.css",
+    "main.js": "/pokedef-final/static/js/main.2fe93caa.js",
+    "static/js/787.7e0b23c5.chunk.js": "/pokedef-final/static/js/787.7e0b23c5.chunk.js",
+    "index.html": "/pokedef-final/index.html",
+    "main.8e188760.css.map": "/pokedef-final/static/css/main.8e188760.css.map",
+    "main.2fe93caa.js.map": "/pokedef-final/static/js/main.2fe93caa.js.map",
+    "787.7e0b23c5.chunk.js.map": "/pokedef-final/static/js/787.7e0b23c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e188760.css",
+    "static/js/main.2fe93caa.js"
+  ]
+}
