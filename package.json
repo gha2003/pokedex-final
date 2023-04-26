@@ -1,9 +1,9 @@
 
 {
   "name": "pokedex",
-  "homepage": "https://gha2003.github.io/pokedef-final",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://gha2003.github.io/pokedef-final",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
